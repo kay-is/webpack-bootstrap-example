@@ -1,0 +1,22 @@
+{
+  "name": "webpack-bootstrap-example",
+  "version": "0.1.0",
+  "description": "Using Bootstrap with Webpack",
+  "scripts": {
+    "setup": "npm i && npm run build && npm start",
+    "build": "webpack",
+    "start": "http-server -c-1"
+  },
+  "author": "Kay Plößer",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "http-server": "^0.9.0",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1"
+  }
+}
